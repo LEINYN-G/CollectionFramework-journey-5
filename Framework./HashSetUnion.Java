@@ -1,7 +1,5 @@
 import java.util.HashSet;
 
-//to perform the union between two sets we use the addAll() method.
-
 public class Students {
   public static void main(String[] args) {
    HashSet<Integer> set1 = new HashSet<>();
@@ -14,6 +12,9 @@ public class Students {
    set3.add(3);
    System.out.println("Set 1:" + set1);
    System.out.println("Set 2:" + set2);
+
+//to perform the union between two sets we use the addAll() method.
+
    set1.addAll(set2);
    System.out.println("Set Union:" + set1);
 
